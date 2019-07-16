@@ -8,10 +8,13 @@ Note : keep the macaddress.pl script at /code folder where we are keeping Docker
 # docker build -t macaddress:v1 /code
 
 Here t -----> target name of the image
-macaddress:v1 ---> Image to be created
+
+macaddress:v1 ---> Image name to be created
+
 /code ----> where our Dockerfile is present
 
-To build the container
+2. To build the container
+
 # docker run -it --name mac macaddress:v1  
 
 or 
