@@ -15,12 +15,12 @@ Note : keep the macaddress.pl script at /code folder where we are keeping Docker
 
 2. To build the container
 
-      docker run -it --name mac macaddress:v1  
+       docker run -it --name mac macaddress:v1  
 
-    or 
-    If we want to provide which network to be used then we can use below command 
+   or 
+   If we want to provide which network to be used then we can use below command 
 
-      docker run -it --network host --name mac macaddress:v1
+       docker run -it --network host --name mac macaddress:v1
 
-    It will ask the user for MAC address number and it will display the output accordingaly. 
+   It will ask the user for MAC address number and it will display the output accordingaly. 
 
