@@ -12,7 +12,12 @@ macaddress:v1 ---> Image to be created
 /code ----> where our Dockerfile is present
 
 To build the container
-# docker run -it macaddress:v1  
+# docker run -it --name mac macaddress:v1  
+
+or 
+If we want to provide which network to be used then we can use below command 
+
+# docker run -it --network host --name mac macaddress:v1
 
 It will ask the user for MAC address number and it will display the output accordingaly. 
 
